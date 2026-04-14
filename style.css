@@ -1,5 +1,14 @@
 nav{
     /*Där det finns länkar till olika delar av hemsidan*/
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-list{
+    /*Där dom tre länkarna i navigationen är*/
+
+    display: flex;
 }
 
 main{
@@ -14,8 +23,18 @@ section{
     /*Där en del av hemsidan är*/
 }
 
+.card-list{
+    /*Där korten är*/
+
+    display: flex;
+    justify-content: space-around;
+}
+
 .card{
     /*Där vad som är i korten är*/
+    border: 1px solid black;
+    background-color: grey;
+    
 }
 
 footer{
