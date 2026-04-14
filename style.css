@@ -3,6 +3,7 @@ nav{
 
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .nav-list{
@@ -54,6 +55,7 @@ section{
     justify-content: space-around;
     padding-left: 15%;
     padding-right: 15%;
+    gap: 10px;
 }
 
 .card{
@@ -65,8 +67,12 @@ section{
     min-width: 300px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     .cards-list{
+        flex-direction: column;
+    }
+
+    nav{
         flex-direction: column;
     }
 }
