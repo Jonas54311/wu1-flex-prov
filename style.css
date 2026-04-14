@@ -9,6 +9,7 @@ nav{
     /*Där dom tre länkarna i navigationen är*/
 
     display: flex;
+    list-style-type: none;
 }
 
 main{
@@ -17,24 +18,32 @@ main{
 
 header{
     /*Där heron är, första men ser när man går in på hemsidan*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    background-color: grey;
 }
 
 section{
     /*Där en del av hemsidan är*/
 }
 
-.card-list{
+.cards-list{
     /*Där korten är*/
 
     display: flex;
     justify-content: space-around;
+    max-width: 70%;
 }
 
 .card{
     /*Där vad som är i korten är*/
     border: 1px solid black;
     background-color: grey;
-    
+    flex-grow: 1;
+    list-style-type: none;
 }
 
 footer{
