@@ -29,6 +29,20 @@ header{
     
 }
 
+h1{
+    margin-top: 0px;
+}
+
+h2{
+    margin-left: 15%;
+}
+
+a{
+    padding-right: 20px;
+    text-decoration-line: none;
+    color: black;
+}
+
 section{
     /*Där en del av hemsidan är*/
 }
