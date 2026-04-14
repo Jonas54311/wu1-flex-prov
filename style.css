@@ -23,7 +23,10 @@ header{
     flex-direction: column;
     align-items: center;
     border: 1px solid black;
-    background-color: grey;
+    background-color: lightskyblue;
+    justify-content: center;
+    min-height: 200px;
+    
 }
 
 section{
@@ -35,17 +38,30 @@ section{
 
     display: flex;
     justify-content: space-around;
-    max-width: 60%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .card{
     /*Där vad som är i korten är*/
     border: 1px solid black;
     background-color: grey;
-    flex-grow: 1;
     list-style-type: none;
+    flex-grow: 1;
+    min-width: 300px;
+}
+
+@media screen and (max-width: 900px) {
+    .cards-list{
+        flex-direction: column;
+    }
 }
 
 footer{
     /*Där man har en grej på slutet*/
+
+    border: 1px solid black;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
 }
